@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Gallery</title>
+	
+	<meta name="description" content="Gallery of Home-Art">
+	<meta name="keywords" content="Lee, Lee Krasner, great-art, abstract painting, women art, Great-art gallery"> 
+  
+	<link rel="stylesheet" href="css/reveal.css">
+	
+	<link rel="stylesheet" href="css/gallery.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/demo.css" /> 
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	
+	<link rel="stylesheet" href="css/mediaquery.css">
+	
+</head>
+
+<body id="page">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<!-- start for dropdown window -->
+	<script src="Javascripts/dropdown.js"></script>
+	<!-- close for dropdown window -->
+	
+	
+	<!-- start for popup window -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery.reveal.js"></script>
+	
+	<script type="text/javascript" src="jquery/lightbox-plus-jquery.min.js"></script>
+
+	
+	<script type="text/javascript">
+	function closeSelf(){
+    self.close();
+    return true;
+	}
+	</script>
+	<!-- close for popup window -->
+
+
+	<ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3>great-art</h3></div></li>
+            <li><span>Image 02</span><div><h3>great-art</h3></div></li>
+            <li><span>Image 03</span><div><h3>great-art</h3></div></li>
+            <li><span>Image 04</span><div><h3>great-art</h3></div></li>
+            <li><span>Image 05</span><div><h3>great-art</h3></div></li>
+            <li><span>Image 06</span><div><h3>great-art</h3></div></li>
+    </ul>
+	
+	<div class="container">
+	
+	
+		<div id="page-wrapper">			
+
+				<header id="header">
+										
+				<h1>
+				<a href="great-art-home.html">Home of Art</a><span>by Hubert Humperdinck</span>
+				</h1>
+				
+				<nav>
+				
+					<div id="navdiv">	
+						<a href="gallery.html" class="navbutton">Our Gallery</a>
+							<div class="dropdown, navbutton">
+								<button onclick="myFunction()" class="dropbtn">Menu</button>
+									<div id="myDropdown" class="dropdown-content">
+										<a href="about-great-art.html">About Us</a>
+										<a href="about-artist.html">About Artist</a>
+										<a href="contact-great-art.html">Contact Us</a>
+										<a href="great-art-blog.html">Blog</a>
+									</div>
+							</div>					
+						
+						<!-- start for popup window -->
+							
+						<a href="#" class="big-link" data-reveal-id="myModal">Sign Up</a>
+							<div id="myModal" class="reveal-modal">
+								<form name="sign-up" method="post" onsubmit="return closeSelf()">
+									<p><b>Sign Up For Our News Letter</b></p>
+									<p>Join over 1,000 people who get free and fresh content delivered automatically each time we publish.
+										We're happy to send you all the latest updates...</p>     
+									<br>
+									<p><span>First Name:</span>
+									<br>
+									<input class="signup" type="text" name="your_first_name" value="" required/></p>
+									<p><span>Last Name:</span>
+									<br>
+									<input class="signup" type="text" name="your_last_name" value="" required/></p>
+									<p><span>Email Address:</span>
+									<br>
+									<input class="signup" type="email" name="your_email" value="" required/></p>
+									<br>
+									<p>
+									<span>&nbsp;</span>
+									<input id="signup" type="submit" name="sign_up_request" value="Sign Up" />
+									</p>
+								</form>
+								<a class="close-reveal-modal">&#215;</a>
+							</div>
+					</div>
+				</nav>
+			</header>
+	
+			<br>
+			<br>
+			
+			
+			<div id="imageslider">
+			
+			
+			
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Self_Portrait_(1930).jpg" data-lightbox="example-set" data-title="Self Portrait (1930)">
+			<img class="example-image" src="images/art-works/Self_Portrait_(1930).jpg" alt="Self Portrait (1930)"></a>
+			<p>Self Portrait (1930)</p>
+		</div>
+				
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Bird_Talk_(1955).jpg" data-lightbox="example-set" data-title="Bird Talk (1955)">
+			<img class="example-image" src="images/art-works/Bird_Talk_(1955).jpg" alt="Bird Talk (1955)"></a>
+			<p>Bird Talk (1955)</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Seated_Nude_(1940).jpg" data-lightbox="example-set" data-title="Seated Nude (1940)">
+			<img class="example-image" src="images/art-works/Seated_Nude_(1940).jpg" alt="Seated Nude (1940)"></a>
+			<p>Seated Nude (1940)</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Cornucopia.jpg" data-lightbox="example-set" data-title="Cornucopia">
+			<img class="example-image" src="images/art-works/Cornucopia.jpg" alt="Cornucopia"/></a>
+			<p>Cornucopia</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Composition_(1949).jpg" data-lightbox="example-set" data-title="Composition (1949)">
+			<img class="example-image" src="images/art-works/Composition_(1949).jpg" alt="Composition (1949)"></a>
+			<p>Composition (1949)</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Milkweed_(1955).jpg" data-lightbox="example-set" data-title="Milkweed (1955)">
+			<img class="example-image" src="images/art-works/Milkweed_(1955).jpg" alt="Milkweed (1955)"></a>
+			<p>Milkweed (1955)</p>
+		</div>
+				
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Noon_(1947).jpg" data-lightbox="example-set" data-title="Noon (1947)">
+			<img class="example-image" src="images/art-works/Noon_(1947).jpg" alt="Noon (1947)"></a>
+			<p>Noon (1947))</p>
+		</div>
+		
+				<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Pollination.jpg" data-lightbox="example-set" data-title="Pollination">
+			<img class="example-image" src="images/art-works/Pollination.jpg" alt="Pollination"></a>
+			<p>Pollination</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/The_Forest_(1955).jpg" data-lightbox="example-set" data-title="The Forest (1955)">
+			<img class="example-image" src="images/art-works/The_Forest_(1955).jpg" alt="The Forest (1955)"></a>
+			<p>The Forest (1955)</p>
+		</div>	
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Gothic_Landscape.jpg" data-lightbox="example-set" data-title="Gothic Landscape">
+			<img class="example-image" src="images/art-works/Gothic_Landscape.jpg" alt="Gothic Landscape"></a>
+			<p>Gothic Landscape.jpg</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Night_Creatures_(1965).jpg" data-lightbox="example-set" data-title="Night Creatures (1965)">
+			<img class="example-image" src="images/art-works/Night_Creatures_(1965).jpg" alt="Night Creatures (1965)"></a>
+			<p>Night Creatures (1965)</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/The_Seasons_(1957).jpg" data-lightbox="example-set" data-title="The Seasons (1957)">
+			<img class="example-image" src="images/art-works/The_Seasons_(1957).jpg" alt="The Seasons (1957)"></a>
+			<p>The Seasons (1957)</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Number_2.jpg" data-lightbox="example-set" data-title="Number 2">
+			<img class="example-image" src="images/art-works/Number_2.jpg" alt="Number 2"></a>
+			<p>Number 2</p>
+		</div>
+		
+
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Porcelain.jpg" data-lightbox="example-set" data-title="Porcelain">
+			<img class="example-image" src="images/art-works/Porcelain.jpg" alt="Porcelain"></a>
+			<p>Porcelain</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Right_Bird_Left_(1965).jpg" data-lightbox="example-set" data-title="Right Bird Left (1965)">
+			<img class="example-image" src="images/art-works/Right_Bird_Left_(1965).jpg" alt="Right Bird Left (1965)"></a>
+			<p>Right Bird Left (1965)</p>
+		</div>
+	
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Still_Life_(1938).jpg" data-lightbox="example-set" data-title="Still Life (1938)">
+			<img class="example-image" src="images/art-works/Still_Life_(1938).jpg" alt="Still Life (1938)"></a>
+			<p>Still Life (1938)</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Untitled.jpg" data-lightbox="example-set" data-title="Untitled">
+			<img class="example-image" src="images/art-works/Untitled.jpg" alt="Untitled"></a>
+			<p>Untitled</p>
+		</div>
+
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Blue_and_Black.jpg" data-lightbox="example-set" data-title="Blue and Black">
+			<img class="example-image" src="images/art-works/Blue_and_Black.jpg" alt="Blue and Black"></a>
+			<p>Blue and Black</p>
+		</div>
+		
+		<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Gaea_(1966).jpg" data-lightbox="example-set" data-title="Gaea (1966)">
+			<img class="example-image" src="images/art-works/Gaea_(1966).jpg" alt="Gaea (1966)"></a>
+			<p>Gaea (1966)</p>
+		</div>
+		
+			<div class="imagediv">
+			<a class="example-image-link" href="./images/art-works/Untitled_(1948).jpg" data-lightbox="example-set" data-title="Untitled (1948)">
+			<img class="example-image" src="images/art-works/Untitled_(1948).jpg" alt="Untitled (1948)"></a>
+			<p>Untitled (1948)</p>
+		</div>
+					
+	</div>
+					
+	
+	<footer>
+			<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+			<p>  </p>
+			<a href="https://www.instagram.com/accounts/login/?force_classic_login" target="_blank">Instagram</a>
+			<p>  </p>
+			<h1><a href="./text/great-art-copyright.txt" target="_blank">©Copyright</a>&nbsp;2016 Great-Art</h1>		
+			<p>  </p>
+			<a href="./text/great-art-privacy.txt" target="_blank">Privacy</a>
+			</footer>
+		
+	</div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+/*Media queries*/
+#header span{
+	font-family: cursive;
+	font-size: 1.2em;
+	color: #000000;
+	
+}
+
+
+
+@media screen and (max-width: 93em){
+	
+	/*general*/
+	#header{
+		font-size: 1em;
+	}
+	
+	#page-wrapper{
+	max-width: 90%;
+	margin: 0 auto;
+	}
+	
+	#header span{
+	display: none;	
+	}
+	
+	/*homepage*/
+	
+	#banner{
+		min-height: 47em;
+	}
+	
+	#figures figure{
+		width: 20em;
+		margin-bottom: 20px;
+	}
+	
+	#figures-row1 {
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	#figures-row1{
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0 auto;	
+	}
+	
+	
+	
+	
+	/*gallery*/
+	
+	.imagediv{
+		width: 40%;
+	}
+	
+	
+	/*about artist*/
+	
+	#LeeKrasner{
+		width: 100%;
+	}
+	
+	#main h2{
+		font-size: 3em;
+		
+	}
+	
+	#main h4{
+		font-size: 2em;
+	}
+	
+	#main h3{
+		font-size: 1.5em;
+	}
+	
+	.row{
+		flex-direction: column;
+	}
+	
+	.column1, .column2{
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	
+	
+	
+	.column2-12{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.column2-1{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	
+	}
+	
+	/*contact us */ 
+	#submit{
+		width: 40%;
+	}
+	
+	#letter img{
+		width: 60%;
+	}
+	
+	/*special paintings*/
+	#imagecontent{
+		float: none;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding: 1.5em;
+		width: 100%;
+	}
+	
+	#imagecontent img{
+	float: none;
+	}
+	
+
+	
+	.imagediv1{
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.post{
+		flex-direction: column;	
+	}
+	
+	.postimage{
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+/*56*/
+@media screen and (max-width: 60em){
+	/*general*/
+	#header{
+		width: 280%;
+	}
+	
+	#header h1{
+		text-align: left;
+		font-size: 1em;
+	}
+	
+	#header, #navdiv, #figures-row1, footer {
+		flex-direction: column;
+	}
+	
+	#page-wrapper{
+	max-width: 75%;
+	margin: 0 auto;
+	}
+	
+		
+	#myModal{
+		width: 20em;
+		left: 350px;
+	}
+	
+	/*homepage*/	
+	#figures-row1{
+		flex-direction: column;
+		
+	}
+	
+	#banner{
+		min-height: 42em;
+	}
+	
+	#banner h2{
+	font-size: 4em;
+	font-family: cursive;
+	}
+
+	#banner h3{
+	font-size: 2em;
+	font-family: cursive;
+	}
+
+	#recent-updates h3{
+	font-size: 1.5em;
+	font-family: cursive;
+	}
+	
+	#something img{	
+	
+	width: 4em;
+	height: 4em;
+	}
+	
+	
+	/*gallery*/
+	
+	.imagediv{
+		width: 75%;
+	}
+		
+	#imageslider{
+		padding-left: 13%;
+	}
+	
+	/*about us */
+
+	#content{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#hubert{
+		float: none;
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	/*about artist*/
+	
+	.column1, .column2{
+		font-size: 1em;
+	}
+	
+	/*contact us */ 
+	
+	#letter img{
+	display: none;
+	}
+	
+	#alternativetext{
+		
+		display: block;
+		font-size: 1em;
+		font-family: cursive;
+		color:#ffffff;
+		text-shadow: 2px 2px #000000;
+	}	
+	
+	/*special paintings*/
+	
+	#imagecontent img{
+	width: 105%;
+	}
+	
+	#imagecontent h2{
+	font-size: 2em;	
+	}
+	
+	.postdetails{
+		flex-direction: column;	
+		padding-top: 20px;
+	}
+	
+	.postimage{
+		width: 75%;
+	}
+	.blogpost{
+		padding: 5px;
+	}
+}
+
+
+@media screen and (max-width: 60em){
+	#page-wrapper{
+	max-width: 95%;
+	margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 45em){
+.column1 a, .column2 a, .column1 p{
+	font-size: 0.9em;
+	
+}
+	
+}
